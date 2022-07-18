@@ -1,0 +1,26 @@
+#container{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 500px;
+    /* border: 1mm solid black; */
+}
+#top{
+    /* background-color: burlywood; */
+    text-align: center;
+}
+#column{
+    padding:0mm 3mm;
+    text-align: center;
+    border: 0.5mm solid black;
+    background-color: aqua;
+}
+.square{
+    /* background:purple ; */
+    width: 30%;
+    padding-bottom: 30%;
+    float:left;
+    margin: 1.66%;
+    /* padding-top: 30% ; */
+    /* padding-left: 30%; */
+    /* margin: 33%; */
+}
