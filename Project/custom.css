@@ -1,0 +1,52 @@
+.background_class{
+    background-size: cover;
+    min-height: 40vh;
+    position:relative;
+    color:white;
+    /* margin-left: 1%;
+    margin-right: 1%; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.topheading{
+    /* padding: auto; */
+    color: black;
+    font-style: initial;
+    padding-left: 10%;
+}
+.jumbotron{
+    background-color: rgb(162, 189, 213);
+    color: black;
+}
+img{
+    margin: 5%;
+    /* margin-right: 1%; */
+    padding: 5%;
+}
+.container-fluid{
+    border: 3cm;
+    /* background-color: #ff33ff; */
+    
+}
+.heading{
+    background-position: 1ch;
+    background-color: black;
+    color: #ff33ff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1cm;
+}
+.navbar{
+    background-color:rgb(162, 189, 213);
+    color: black;
+    /* min-height: 100px; */
+    text-align: center;
+    margin-bottom: %;
+    
+}
+ul{
+    font-size: large;
+}
+a{
+    color: black;
+}
