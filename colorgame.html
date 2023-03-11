@@ -4,16 +4,20 @@
     <meta charset="utf-8">
     <title>Color Game</title>
     <link rel="stylesheet" type="text/css" href="colorgame.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap.css">
   </head>
   <body>
+    <div class="container">
     <div id="top">
         <h3> THE GREAT </h3>
         <h1><span id="color">RGB()</span></h1>
         <h3>GUESSING GAME</h3>
+        <div id="column">
+          <p> <button id="restart" >NEW COLORS</button> <span id="conclusion">  Start! </span><button id="easy" >EASY</button> <button id="medium"  >MEDIUM</button>  <button id="hard"  >HARD</button> </p>
+      </div>
     </div>
-    <div id="column">
-        <p>NEW COLORS <span id="conclusion">  start! </span><SPAN id="easy">EASY</SPAN> <span id="hard">HARD</span> </p>
-    </div>
+   
     <div id="container">
         <div class="square"></div>
         <div class="square"></div>
@@ -21,7 +25,11 @@
         <div class="square"></div>
         <div class="square"></div>
         <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
+        <div class="square"></div>
     </div>
+  </div>
   </body>
   <script src = "colorgame.js"></script>
 </html>

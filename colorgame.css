@@ -7,12 +7,30 @@
 #top{
     /* background-color: burlywood; */
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: large;
+    background-color: rgb(5, 5, 174);
+    color: antiquewhite;
 }
 #column{
-    padding:0mm 3mm;
+    padding:0mm 0mm;
+    margin: 0mm 0mm;
     text-align: center;
-    border: 0.5mm solid black;
-    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+    font-size: medium;
+    /* border: 0.5mm solid black; */
+    background-color: antiquewhite;
+    color:rgb(5, 5, 174) ;
+    /* border-radius: 5%; */
+}
+button {
+    background-color: #faebd7 ;
+    border: 0ch;
+    padding: 1%;
+    /* background-size:10px; */
+    /* background-position: top; */
 }
 .square{
     /* background:purple ; */
@@ -20,7 +38,15 @@
     padding-bottom: 30%;
     float:left;
     margin: 1.66%;
+    border-radius: 15%;
     /* padding-top: 30% ; */
     /* padding-left: 30%; */
     /* margin: 33%; */
+}
+#conclusion{
+    font-size: 0.7cm ;
+    padding: 3% 3%;
+}
+.container{
+    background-color: rgb(18, 17, 17);
 }
